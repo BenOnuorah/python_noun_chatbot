@@ -1,0 +1,219 @@
+{"intents": [
+         {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello welcome to NOUN, I can help with NOUN application, e-learning portal, SIWES, TMA, Examination and Portal Support", "Welcome to NOUN", "Hi welcome, I can help you do NOUN application, NOUN e-learning portal, SIWES, TMA, Examination and Portal Support"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+         {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through NOUN application, NOUN e-learning portal, SIWES, TMA, Examination and Portal Support"],
+         "context": [""]
+        },
+        {"tag": "application",
+         "patterns": ["How do I apply for admission into National Open University of Nigeria (NOUN?)"],
+         "responses": ["1. Applicants should visit the NOUN site www.nouonline.net. 2. On the Home Page, go to the Menu Bar, Click on 'Apply for Admission'. 3. Select either Undergraduate Programme or Postgraduate Programme. 4. Go to 'Choose Faculty' (note it can be found at the left hand side of the screen). 5. Select Faculty and fill the displayed form Click below to view admission criteria. 6. Click 'Apply' to proceed. 7. Take note of the UNIQUE ID displayed. 8. Click 'Continue' button. 9. Select Bank Branch as payment type and Click 'Pay'. 10. Copy and take your RRR number to any bank branch for payment. 11. After payment. 12. Go to 'Continue After Payment'. 13. Input Unique ID, RRR number and Programme. 14. Click 'Proceed'. 15. Fill Form.  Note: all fields marked with red star are compulsory. 16. After filling form. 17. Click 'Submit'. 18. Proceed to Print Admission Letter"],
+         "context": [""]
+        },
+        {"tag": "e-learning_portal",
+         "patterns": ["How can I access my NOUN  e-learning portal?"],
+         "responses": ["1) Visit https://elearn.nou.edu.ng/. 2) Enter your username and password. Your initial username and password will be your matriculation number in lower case. 3) After successfully logging in, you will be prompted to change your password. Follow these steps: 1. Enter your old password (i.e., your matriculation number). 2. Enter your new password. 3. Confirm the new password. 4. Verify that your email address, programme, Study Centre etc. have been correctly entered. If not accurate, make the necessary changes. 5. click 'save' "],
+         "context": [""]
+        },
+        {"tag": "reset_password",
+         "patterns": ["How do I reset my password?"],
+         "responses": ["1) Click on 'login' on the NOUN portal. 2) Then click on 'Forgot Password?'. 3) Enter your NOUN official email address accurately and click on 'Send Password Reset Link'. 4) Next, check your NOUN official Email, INBOX or SPAM folder to locate the password reset link. 5) Follow the link to reset your password"],
+         "context": [""]
+        },
+        {"tag": "cant_access_e-learning_portal",
+         "patterns": ["I am unable to access my e-learning portal after completing registration process"],
+         "responses": ["Sorry, your e-learning portal will be accessible 2 working days after you have completed your examination registration"],
+         "context": [""]
+        },
+        {"tag": "courses_not_reflecting_on_portal",
+         "patterns": ["I am concerned that the courses I have registered for are not reflecting on my portal"],
+         "responses": ["Your current registered courses will only reflect on your portal after you have completed your examination registration Or Revisit your registration process"],
+         "context": [""]
+        },
+        {"tag": "course_examination_not_visible",
+         "patterns": ["The Course or Examination registrations are not visible on my dashboard." ],
+         "responses": ["Sorry, It takes 2 working days after completing your registration for the changes to reflect."],
+         "context": [""]
+        },
+        {"tag": "cannot_login",
+         "patterns": ["When I try to log in to my e-learning portal using my matriculation number, it shows 'User not recognized'" ],
+         "responses": ["Your e-learning portal will become accessible once Facilitation and Tutor Marked Assignment (TMA) commence, Visit https://elearn.nou.edu.ng/. 1. Enter your username and password. Your initial username and password will be your matriculation number in lower case. 2. After successfully logging in, you will be prompted to change your password. Follow these steps: a. Enter your old password (i.e., your matriculation number). b. Enter your new password. c. Confirm the new password. d. Verify that your email address, programme, Study Centre etc. have been correctly entered. If not accurate, make the necessary changes. f. Click 'save'"],
+         "context": [""]
+        },
+        {"tag": "reset_password",
+         "patterns": ["How can I reset my e-learn password?" ],
+         "responses": ["For old and returning students: your previous semester’s password remains valid unless forgotten. If forgotten, please use the 'Forgot Password' option and provide your NOUN student email. A Message will be sent to your NOUN email. If your records have not been uploaded to the platform, access will not be granted. For new students: log in using your matriculation number as both your username and password with the prefix in lower case (e.g., nou123456789)"],
+         "context": [""]
+        },
+        {"tag": "access_tma_grade",
+         "patterns": ["How can I access my TMA Grades?"],
+         "responses": ["To view your TMA grades, please follow these steps: 1)Log in to the TMA portal using your login details via https://elearn.nouedu2.net/.  2) The initial login uses your matriculation number as both the username and password, but you will need to reset your password upon the first login. (Your login credentials remain the same for successive semesters). 3)     Navigate to one of your courses. 4) On the left-hand side of the screen, you will see an icon resembling an open book; click on it. 5) This will display the grades for the selected course. 6) If you want to see all your TMA results, click on any of your courses, then click on 'Overview report', this will present all your TMA grades."],
+         "context": [""]
+        },
+        {"tag": "access_tma_portal",
+         "patterns": ["How do I log into my Tutor Marked (TMA) Portal?" ],
+         "responses": ["To access the TMA portal please follow these steps: 1) Visit the TMA portal via https://elearn.nou.edu.ng/ with your login details. 2) Returning students could use the same login details as the previous semester as your login details remain the same. For new students, your matriculation number is your username and password, prefix (nou.) in lower case. On your first login, you will be prompted to change your password. 3) Once logged in successfully navigate to the desired course you wish to take the TMA 4)     On the course page, scroll down to find the 'TMA section'. 5) Within the TMA section, you will find 'Tutor Marked Assignment 1 (TMA1)' 'Tutor Marked Assignment 2 (TMA2)' and 'Tutor Marked Assignment 3 (TMA3)', click on TMA1 and proceed to attempt the TMAs accordingly. You need to submit TMA 1 first in order to gain access to TMA 2 and subsequently TMA 3."],
+         "context": [""]
+        },
+        {"tag": "tma_courses_display",
+         "patterns": ["How are TMA courses displayed on the portal?"],
+         "responses": ["Your registered courses will be visible on your TMA portal, along with their associated questions, within 2 working days of your course registration. It is important to complete both your examination and course registrations. Please note that courses for which you have not registered for examination will not appear on your TMA portal."],
+         "context": [""]
+        },
+        {"tag": "seminar_project_teaching_practice_results",
+         "patterns": ["I would like to request upload of my Seminar/Project/Teaching practice results" ],
+         "responses": ["Visit your study centre to upload a copy of your seminar/project/teaching practice results. After you have submitted for upload at your study centre and your result is still not uploaded, you will need to log on to the support portal at support.nou.edu.ng to raise a ticket under the e-learn category."],
+         "context": [""]
+        },
+        {"tag": "cannot_access_email",
+         "patterns": ["I can no longer access my email"],
+         "responses": ["To access your student email account, use your email address and password, which is typically your matriculation number (e.g., nou12345678)"],
+         "context": [""]
+        },
+        
+        {"tag": "download_course_materials",
+         "patterns": ["Where can I download my course materials?"],
+         "responses": ["Kindly, visit https://nou.edu.ng/e-courseware/ to download your course material."],
+         "context": [""]
+        },
+        {"tag": "noun_support_account",
+         "patterns": ["How do I log into my support.nou.edu.ng account when I forget my password"],
+         "responses": ["For your support password reset, kindly follow the steps below: 1. visit www.support.nou.edu.ng. 2. Click on login. 3. Click on 'Forgot Password'. 4. Enter your student email address. 5. Click on 'Send Reset Password Link'. 6. Check your student email inbox or spam folder for the sent reset password"],
+         "context": [""]
+        },
+        {"tag": "fluctuates_cgpa",
+         "patterns": ["My CGPA fluctuates"],
+         "responses": ["Your Cumulative GPA may fluctuate following each academic result release, increasing, decreasing, or staying the same, depending on your academic performance."],
+         "context": [""]
+        },
+        {"tag": "request_e_exam_remark",
+         "patterns": ["I want to request for a remark of my E-Examination"],
+         "responses": ["E-examination does not provide a remark option"],
+         "context": [""]
+        },
+       {"tag": "request_pop_exam_remark",
+         "patterns": ["I want to requestfor a remark of my POP Examination "],
+         "responses": ["To request that your POP examination is remarked, please follow these steps: 1. Lodge a complaint and apply for re-marking through your Study Centre to the Academic Registry. 2. Attach evidence of your exam registration. 3. Pay a re-marking fee of Twenty Thousand Naira only (#20,000) per course through remita to the University's account."],
+         "context": [""]
+        },
+        {"tag": "results_incomplete",
+         "patterns": ["My results are incomplete"],
+         "responses": ["If you have incomplete results, it could be due to the absence of either TMAs or Examination scores. Kindly raise an e-ticket on support@nou.edu.ng for further action."],
+         "context": [""]
+        },
+        {"tag": "access_view_my_result",
+         "patterns": ["I want to access/view my result"],
+         "responses": ["To access this platform, follow these steps: 1. To sign in, visit https://support.nou.edu.ng/ and use your matriculation number as the username. 2. If you have not changed it yet, your temporary password is 'default'. 3. Upon your first login, you will need to change your password. 4. After updating your password, click on 'result statement' to view your comprehensive results, including your CGPA and outstanding courses."],
+         "context": [""]
+        },
+        {"tag": "passing_grades",
+         "patterns": ["What are the passing grades for undergradutes and postgraduates?"],
+         "responses": ["Your final grade is determined by combining your TMAs and Examination scores. TMA scores contribute 30% while examination scores contribute 70%, towards the pass mark, with variations depending on the programme of study. Undergraduate students generally require 40% and above to attain pass mark, except for nursing programmes which require 50% and above. Postgraduate programmes typically have a pass mark of 50% and above."],
+         "context": [""]
+        },
+        {"tag": "courses_not_pass_results",
+         "patterns": ["The Courses I did not pass still appear on my statement of results"],
+         "responses": ["Any course you previously failed will continue to be reflected in your statement of results, even if you later pass them, it remains a permanent part of your records."],
+         "context": [""]
+        },
+        {"tag": "payment_not_reflecting_in_wallet",
+         "patterns": ["I have made payment and it is not reflecting in my wallet, what should I do to resolve this?"],
+         "responses": ["If a payment has been made successfully but is not reflecting in your e-wallet, please follow these steps: 1) Log in to www.nouonline.net 2) Click on 'Check RRR'. 3) Enter the RRR, if it indicates successful payment, log in to your portal. 4) Click on your wallet and select 'Credit RRR' and enter the 'RRR'. This should update your wallet with the payment."],
+         "context": [""]
+        },
+        {"tag": "deficit_in_wallet",
+         "patterns": ["I have a deficit in my wallet, how do I resolve it?"],
+         "responses": ["1) Login to your portal and navigate to the wallet section. 2) click on 'Wallet' and select 'View Wallet'. 3) Once the portal content is displayed, review all your payments.  4) If any payment is not reflecting, go to the home page of your portal and click on 'Check RRR'. 5) Enter the missing RRR. If it shows as 'Successful', proceed. 6) Log back into your portal, click on 'Wallet' and select 'Credit RRR'. 7) Enter the 'RRR' and the payment should now reflect in your wallet. 8) If you are unable to identify the error, please visit your Study Centre or the nearest one to your location and seek assistance from the accountant."],
+         "context": [""]
+        },
+        {"tag": "print_e-wallet",
+         "patterns": ["How do I print my e-wallet?"],
+         "responses": ["1) For a Returning student, log in to your portal. 2) Navigate to the wallet section, choose 'View Wallet' and proceed to print. 3) For granduants click on 'Final Clearance', select check wallet and then print."],
+         "context": [""]
+        },
+        {"tag": "charged_multiple_times",
+         "patterns": ["I have been charged multiple times for a registered course and require a reversal or refund of charges"],
+         "responses": ["Please raise an e-ticket on the student support platform under the 'Students Portal Issues' category. Under the subcategory, click “Course/Exam Registration Issue” and submit your complaint. Our team will resolve it."],
+         "context": [""]
+        },
+        {"tag": "clearance_certificate_collection",
+         "patterns": ["What are the steps to complete the final clearance process for certificate collection?"],
+         "responses": ["To initiate your final clearance for certificate collection, follow these steps: 1) Visit nounonline.net and click on 'Final Clearance' Section. 2) Select the option for 'Determine Amount Payable'. 3) Enter your matriculation number and the portal will display your clearance bill. 4) Choose your preferred Bank Branch for payment and click 'Pay'. This action will redirect you to the remita payment page. 5) Complete the payment process through remita. 6) After making the payment, visit your designated Study Centre for further guidance and assistance to complete your clearance."],
+         "context": [""]
+        },
+        {"tag": "withdraw_the_remaining_balance",
+         "patterns": ["How can I withdraw the remaining balance from my e-wallet after graduation?"],
+         "responses": ["Submit an application to the Bursar and include the following documents: 1) Proof of final clearance. 2) Receipts for Payments made during clearance. 3) A copy of the certificate obtained after completing the clearance process"],
+         "context": [""]
+        },
+        {"tag": "what_siwes",
+         "patterns": ["What is SIWES?"],
+         "responses": ["SIWES, which stands for Students Industrial Work Experience Scheme, is often referred to as a student internship programme.  It is a mandatory skills training programme in Nigerian tertiary institutions, designed to providing students with exposure to machinery, equipment, professional work methods and workplace safety. It is part of the approved Benchmark for Minimum Academic Standards (BMAS) for certain degree programmes at the National Open University of Nigeria (NOUN) and designed to bridge the gap between the theoretical and practical aspects of academic and other professional educational programmes."],
+         "context": [""]
+        },
+        {"tag": "siwes",
+         "patterns": ["What is the duration for SIWES?"],
+         "responses": ["The Duration for SIWES is six months, although some programmes may vary within the six months, which can be completed during your 200-level and another three months during your 300-level, totaling six months. The only exception is for the students of B. Agriculture that have their Farm Practical Year (FPY/SIWES) for fifty-two weekends."],
+         "context": [""]
+        },
+        {"tag": "credit_unit_for_siwes",
+         "patterns": ["What is the Credit Unit for SIWES?"],
+         "responses": ["The SIWES is six credit units. In some programmes, it is allocated as 3 credits in the second Year and 3 credits in the third Year. The only exception applies to the B. Agriculture programme, where the Farm Practical Year/SIWES is registered as AGR400 and holds a credit load of twenty-four credit units."],
+         "context": [""]
+        },
+        {"tag": "register_for_siwes",
+         "patterns": ["How do I register for SIWES?"],
+         "responses": ["To register for SIWES, please follow these steps: 1) login to the SIWES platform at https://mylearningspace.nouedu2.net 2) Username: matriculation number in capital letters, Password: matriculation number in small letters. 3) When the home page opens, select 'My SIWES Record' on the left-side menu and login again. 4) Username: Matriculation number in capital letters, Password: Matriculation Number in small letters. 5) Click on 'Add a SIWES record', fill out the forms, upload your passport, and save. 6) Then, select the SIWES details, fill out the forms and save. 7) Next, you can proceed to download and print the request for Placement letter 001 and Placement acceptance form 002."],
+         "context": [""]
+        },
+        {"tag": "itf_stipends",
+         "patterns": ["What is ITF Stipend?"],
+         "responses": ["The ITF stipend refers to a financial allowance or payment provided by the Industrial Training Fund (ITF) to students during their Work Experience Scheme (SIWES) in Nigeria. It is a form of financial support to help students cover their expenses while gaining practical work experience. To be eligible for the stipend, you need to fulfil the following requirements: 1) The placement must be relevant to your programme of study. 2) Submit your Student Commencement of Attachment Form (SCAF) to the nearest ITF office within two weeks of commencement of attachment. This will give the ITF officials an idea of where you are placed and supervise your placement effectively. 3) Complete the description of the work done with necessary diagrams and pictures. 4) Fulfil the mandatory 24-week period for SIWES attachment with weekly entries filled by both you and your industry-based supervisor. 5) Engage in practical-based attachment and demonstrate its relevance during SIWES supervision. The spaces provided must be duly filled by you and your Industry based supervisor must append his or her signature with comments on a weekly basis. 6) You must supply the account details with sort code at the time of submission. 7) Student must have fulfilled all the other requirements as stated in the Stepwise procedure for SIWES."],
+         "context": [""]
+        },
+        {"tag": "noun_itf_programmes",
+         "patterns": ["Which Programmes in NOUN receive funding from ITF?"],
+         "responses": ["1) Click on 'Pay FGN and State TSA'. These programmes are: 1) B.Sc. Agricultural Economics Management (AEM). 2) B.Sc. (Ed.) Business Education (BED314 and BED413). 3)   B.Sc. Computer Science (CIT389). Undergraduates enrolled in these ITF-funded programmes will receive a stipend of Fifteen Thousand Naira only (N15,000) if they fulfil all the aforementioned conditions."],
+         "context": [""]
+        },
+        {"tag": "change_siwea_placement",
+         "patterns": ["How do I change my placement?"],
+         "responses": ["To change your placement Please access the SIWES platform at https://mylearningspace.nou.edu.ng. 1) Login with your username and password. 2) Select 'VIEW and EDIT SIWES Record'. 3) Select your matriculation number when the page loads and click on 'EDIT' on the next page, select 'SIWES Details', Edit and save. 4) You can then go to the home page and click on 'Request for placement form 001', download and print. 5) Click on “Placement acceptance letter 002”, download and print."],
+         "context": [""]
+        },
+        {"tag": "pay_for_logbook",
+         "patterns": ["How do I Pay for Logbook?"],
+         "responses": ["Payment should only be processed via the remita platform at www.remita.net as follows: 1) Click on 'Pay FGN and State TSA'. 2) In the “Who do you want to pay to” (type 'National Open University of Nigeria'). 3) For 'Name of Service /Purpose' (select 'Miscellaneous income'). 4) In 'Purpose of Payment' (type 'SIWES Logbook') as applicable. Provide relevant details and pay online or at the bank. 5) Fill in your details (phone number and e-mail address in the appropriate boxes). 6) The amount to be paid for document verification is One Thousand naira only (#1,000). 7) REMITA will send a mail (E-invoice) to your e-mail, print out and take to any commercial bank OR pay via your Internet Banking Site, Mobile Wallet or with your Debit/Credit Cards. 8) Please take the original receipt to the SIWES Desk Officer in your Study Centre to request for your logbook."],
+         "context": [""]
+        },
+        {"tag": "prorammes_duration_siwes",
+         "patterns": ["Prorammes, course codes and duration for SIWES"],
+         "responses": ["Faculty. Agricultural Science. Education. Health Sciences. Management Sciences. Sciences. Social Sciences"],
+         "context": [""]
+        },
+        {"tag": "change__entry_Level",
+         "patterns": ["How do I change my entry Level?"],
+         "responses": ["1. Login to NOUN support website on https://support.nou.edu.ng/. 2. Raise a complaint/Ticket. 3. Attach a copy of your Admission Letter, O-Level certificate(s), (OND/NCE/HND results, where applicable) and other relevant documents."],
+         "context": [""]
+        }
+   ]
+}
